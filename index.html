@@ -24,37 +24,75 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
+
+<style>
+  body {
+  background: url('https://cdn.pixabay.com/photo/2022/10/03/21/47/fog-7496901_1280.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+</style>
+
   <body>
+
+    <div class="jumbotron text-center">
+      <h1>My WebApps</h1>       
+    </div>
           
-      <div class="container-fluid">            
-          <div class="container-fluid ">
-            <p></p>
+                  
+          <div class="container-fluid row">
+            <div class="col-sm-4">
             <a class="btn btn-danger btn-lg center-block " href="https://www.elheraldo.co/" role="button">El Herado</a>
             <p></p>
+            </div>
+            <div class="col-sm-4">
             <a class="btn btn-warning btn-lg center-block " href="https://www.aldia.co/" role="button">Aldía.co</a>
             <p></p>
+            </div>
+            <div class="col-sm-4">
             <a class="btn btn-primary btn-lg center-block " href="http://www.noticiascaracol.com/" role="button">Caracol</a>
             <p></p>
+            </div>
+            <div class="col-sm-4">
             <a class="btn btn-warning btn-lg center-block " href="https://www.meteomedia.com/ca/previsions-meteo-horaires/quebec/lachine" role="button">MeteoMedia</a>
             <p></p>
+            </div>
+            <div class="col-sm-4">
             <a class="btn btn-danger btn-lg center-block " href="https://www.journaldemontreal.com/" role="button">Le Journal de Montréal</a>
             <p></p>
+            </div>
+            <div class="col-sm-4">
             <a class="btn btn-primary btn-lg center-block " href="https://www.lavanguardia.com/local/barcelona" role="button">Lavanguardia</a>
             <p></p>
+            </div>
+            <div class="col-sm-4">
             <a class="btn btn-danger btn-lg center-block " href="https://www.elperiodico.com/es/barcelona/" role="button">El periodico</a>
             <p></p>
+            </div>
+            <div class="col-sm-4">
             <a class="btn btn-info btn-lg center-block " href="https://www.20minutos.es/cataluna/barcelona/" role="button">20minutos</a>
             <p></p>
+            </div>
+            <div class="col-sm-4">
             <a class="btn btn-primary btn-lg center-block " href="https://www.jw.org/es/" role="button">Jw.org</a>
             <p></p>
+            </div>
+            <div class="col-sm-4">
             <a class="btn btn-info btn-lg center-block " href="https://wol.jw.org/es/wol/h/r4/lp-s" role="button">BIBLIOTECA EN LÍNEA</a>
             <p></p>
+            </div>
+            <div class="col-sm-4">
             <a class="btn btn-danger btn-lg center-block " href="https://html5games.com//" role="button">HTML5 Games</a>
             <p></p>
-            <a class="btn btn-default btn-lg center-block " href="https://www.coloringpages-forkids.com/" role="button">Coloring4Kids</a>          
+            </div>
+            <div class="col-sm-4">
+            <a class="btn btn-default btn-lg center-block " href="https://www.coloringpages-forkids.com/" role="button">Coloring4Kids</a>
+            </div>          
           </div>
           
-      </div>
+      
       <script>
         if('serviceWorker' in navigator) {
           navigator.serviceWorker.register('/sw.js', { scope: '/' });
