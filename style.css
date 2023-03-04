@@ -33,6 +33,7 @@
   letter-spacing: 0.1rem;
   transition: 0.5s;
   z-index: 1;
+  text-align:center
 }
 
 .button:hover {
